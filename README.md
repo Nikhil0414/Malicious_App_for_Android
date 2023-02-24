@@ -19,6 +19,7 @@ comes pre-installed in Kali Linux. (It's BSD-licensed). The framework offers onl
 command-line interface, but those wanting GUI-based click-and-drag hacking —
 plus some other cool features — can drop a bundle for per-seat licenses
 to Metasploit Pro.
+
 Meterpreter--
  Meterpreter is an advanced, dynamically extensible payload that uses in-memory DLL
 injection stagers and is extended over the network at runtime. It communicates over
@@ -38,6 +39,7 @@ GET. Metasploit receives this GET and configures the client.
  Lastly, Meterpreter loads extensions. It will always load stdapi and will load priv if the
 module gives administrative rights. All of these extensions are loaded over TLS/1.0
 using a TLV protocol.
+
 Msfvenom--
  MSFvenom is used to make a payload to penetrate the Android emulator. Note: In
 this command, we have used the local address because we are demonstrating in the

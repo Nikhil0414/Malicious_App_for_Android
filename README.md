@@ -60,14 +60,16 @@ encoder modules.
 
 What are we going to do?
 
-Using Metasploit Framework and MSF venom we are going to create a malicious .apk file.
-The .apk file will be having a particular payload and will have all file necessary to get access
-to various features of the target device. The .apk will be sent to the victim’s device using a
+* Using Metasploit Framework and MSF venom we are going to create a malicious .apk file.
+* The .apk file will be having a particular payload and will have all file necessary to get access
+to various features of the target device. 
+* The .apk will be sent to the victim’s device using a
 link which will automatically initiate the download of the the malicious .akp file into the
-device. The .apk will ask the victim for allowance of features on the device. After victim
+device. 
+* The .apk will ask the victim for allowance of features on the device. After victim
 grants the access to the app we can start our MSF console and initiate a meterpreter
 session which will become a means of transfer for victims data to the hacker.
-After establishing a successful connection between the victim’s device and the hacker we
+* After establishing a successful connection between the victim’s device and the hacker we
 can accomplish huge number of tasks and gather enormous amount of victim’s data. 
 
 

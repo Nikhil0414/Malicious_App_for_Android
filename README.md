@@ -11,10 +11,11 @@ The payload successfully penetrated the Android device using Kali Linux and pene
 Successful creation and deployment of virus for android injected with payload in the form of an android app. With the help of our malicious .apk file (virus app for android) named Notes(apk).
 
 Metasploit Framework--
- Metasploit is a penetration testing framework that makes hacking simple. It's an
+
+Metasploit is a penetration testing framework that makes hacking simple. It's an
 essential tool for many attackers and defenders. Point Metasploit at your target,
 pick an exploit, what payload to drop, and hit Enter.
- Better still, the core Metasploit Framework is both free and libre software and
+Better still, the core Metasploit Framework is both free and libre software and
 comes pre-installed in Kali Linux. (It's BSD-licensed). The framework offers only a
 command-line interface, but those wanting GUI-based click-and-drag hacking —
 plus some other cool features — can drop a bundle for per-seat licenses

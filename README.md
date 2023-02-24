@@ -1,5 +1,7 @@
 # Malicious App for Android
 
+Disclamer: All the information is for educational purposes only.
+
 In this report, we have shown how we can hack an android mobile device using MSF
 venom and the Metasploit framework. We will use MSF venom for generating the
 payload, save it as an .apk file and set up a listener to the Metasploit framework. Once

@@ -239,6 +239,7 @@ Once the user clicks on the app—our meterpreter session initiate and starts re
 Successfully got the Meterpreter session
 Once the meterpreter session starts we can just type “help” command to see the available option to execute in meterprreter.
 With help command, we will see more options that we can perform with an Android device.
+
 <img width="492" alt="image" src="https://user-images.githubusercontent.com/58047550/221260630-6218195f-cee2-4995-a357-cee721225e7c.png">
 
 The commands are well categorized according to different domains.
@@ -281,10 +282,12 @@ The ```webcam_snap``` command takes a picture from the device. You will have to 
 Next Command:
 **record_mic**
 The ```record_mic``` command records audio. Good for listening to a phone conversation, as well as other uses.
+
 <img width="492" alt="image" src="https://user-images.githubusercontent.com/58047550/221261069-4dfb6082-0b75-47f5-95b8-82cf0b189886.png">
 
 
 These are the files we got in our kali machine after executing the commands for camera (2 files .jpeg) and sound recording (1 file .wav).
+
 <img width="492" alt="image" src="https://user-images.githubusercontent.com/58047550/221261110-d20cb484-0e58-4303-9c1d-bbc2243c670b.png">
 
 

